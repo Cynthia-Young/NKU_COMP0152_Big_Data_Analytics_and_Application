@@ -1,0 +1,29 @@
+start training
+Epoch 1/5
+
+Train | Loss:834.66363 RMSE: 28.891
+
+Valid | Loss:763.09377 RMSE: 27.624
+Saving model with RMSE 27.624
+Epoch 2/5
+
+Train | Loss:719.02406 RMSE: 26.815
+
+Valid | Loss:735.41788 RMSE: 27.119
+Saving model with RMSE 27.119
+Epoch 3/5
+
+Train | Loss:667.25139 RMSE: 25.831
+
+Valid | Loss:729.51834 RMSE: 27.010
+Saving model with RMSE 27.010
+Epoch 4/5
+
+Train | Loss:619.30010 RMSE: 24.886
+
+Valid | Loss:730.51339 RMSE: 27.028
+Epoch 5/5
+
+Train | Loss:570.71661 RMSE: 23.890
+
+Valid | Loss:740.91363 RMSE: 27.220

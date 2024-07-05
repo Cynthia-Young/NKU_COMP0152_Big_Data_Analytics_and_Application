@@ -1,0 +1,3 @@
+ALS的预测结果中部分Item的评分为None，是因为这些item在train.txt中没有出现过，而ALS仅根据训练集得到的模型，因此无法给予这些item评分。
+
+而这些item在MLP的预测结果中是有评分的，原因是MLP额外还是用了iterAttribute.txt物品特征数据集，即使train.txt中没有这个Item的评分，依旧可以通过其特征判断该用户对他的喜爱。所以在这一点上，MLP模型是更优秀的。
